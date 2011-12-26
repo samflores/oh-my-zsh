@@ -37,6 +37,10 @@ alias gm='git merge'
 compdef _git gm=git-merge
 alias glf='git pull --ff-only'
 compdef _git glf=git-pull
+alias gini='git init'
+compdef _git gini=git-init
+alias grm='git rm'
+compdef _git grm=git-rm
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
