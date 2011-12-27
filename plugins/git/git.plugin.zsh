@@ -43,6 +43,8 @@ alias gini='git init'
 compdef _git gini=git-init
 alias grm='git rm'
 compdef _git grm=git-rm
+alias gcl='git clone'
+compdef _git gcl=git-clone
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
