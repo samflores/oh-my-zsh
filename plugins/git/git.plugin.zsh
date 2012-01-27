@@ -46,6 +46,8 @@ alias grm='git rm'
 compdef _git grm=git-rm
 alias gcl='git clone'
 compdef _git gcl=git-clone
+alias grh='git reset HEAD'
+alias grhh='git reset HEAD --hard'
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
