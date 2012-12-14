@@ -49,6 +49,12 @@ compdef _git gcl=git-clone
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 
+alias grb='git rebase'
+compdef _git grb='git rebase'
+alias grbc='git rebase --continue'
+alias grbs='git rebase --skip'
+alias grba='git rebase --abort'
+
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
 compdef git-svn-dcommit-push=git
